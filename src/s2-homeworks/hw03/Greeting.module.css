@@ -2,18 +2,24 @@
 }
 
 .inputAndButtonContainer {
+
 }
 
 .error {
+    color: red;
 }
 
 .input {
+
 }
 
 .input:focus {
+
 }
 
 .errorInput {
+    border: solid 1px red;
+    color:red;
 }
 
 .button {
@@ -26,6 +32,7 @@
 }
 
 .button:disabled {
+
 }
 
 .text {

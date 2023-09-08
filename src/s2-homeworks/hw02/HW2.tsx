@@ -40,6 +40,7 @@ export const filterAffairs = (affairs: Array<AffairType>, filter: FilterType): A
     //если пришел фильтр "all"...может нам вообще не фильтровать, а вернуть все?
     //а вот если пришло другое значение...
 
+
     return affairs.filter(t =>{
         if(filter === "all"){
             return affairs
