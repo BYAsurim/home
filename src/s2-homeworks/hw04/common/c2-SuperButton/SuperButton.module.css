@@ -1,37 +1,146 @@
 .button {
+    font-family: Montserrat sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
 }
 
 .disabled {
+    width: 133px;
+    height: 30px;
+    top: 1573px;
+    left: 574px;
+    padding: 5px 24px 5px 24px;
+    border-radius: 3px;
+    gap: 10px;
+    opacity: 0.5;
+    background-color: #004D99;;
+
 }
 
 .secondary {
+    width: 176px;
+    height: 30px;
+    top: 1622px;
+    left: 574px;
+    padding: 5px 24px 5px 24px;
+    border-radius: 3px;
+    gap: 10px;
+    color: #0066CC;
+    border: 1px solid #0066CC;
+
 }
 
 .default {
+    width: 132px;
+    height: 30px;
+    color: #FFFFFF;
+    top: 1465px;
+    left: 574px;
+    padding: 5px 24px 5px 24px;
+    border-radius: 3px;
+    gap: 10px;
+    background-color: #0066CC;
+
 
 }
 
 .red {
+
     background-color: #CC1439;
+    color: #FFFFFF;
+    width: 129px;
+    height: 30px;
+    top: 1519px;
+    left: 576px;
+    padding: 5px 24px 5px 24px;
+    border-radius: 3px;
+    gap: 10px;
+
 }
 
 .default:hover {
+    content: "ergwae";
+    width: 167px;
+    height: 30px;
+    top: 261px;
+    left: 574px;
+    padding: 5px 24px 5px 24px;
+    border-radius: 3px;
+    gap: 10px;
+    background: #0080FF;
+
+
 }
 
 .red:hover {
+    width: 167px;
+    height: 30px;
+    top: 315px;
+    left: 574px;
+    padding: 5px 24px 5px 24px;
+    border-radius: 3px;
+    gap: 10px;
+    background: #FF1A47;
+
+
 }
 
 .secondary:hover {
+    width: 167px;
+    height: 30px;
+    top: 418px;
+    left: 574px;
+    padding: 5px 24px 5px 24px;
+    border-radius: 3px;
+    border: 1px;
+    gap: 10px;
+    color: #0066CC;
+    background-color: #E5F0FA;
+    border: 1px solid #0066CC
+
+
 }
 
 
 .default:active {
+    width: 149px;
+    height: 30px;
+    top: 261px;
+    left: 574px;
+    padding: 5px 24px 5px 24px;
+    border-radius: 3px;
+    gap: 10px;
+    background-color: #0059B2;
+
 }
 
 .secondary:active {
+    width: 149px;
+    height: 30px;
+    top: 418px;
+    left: 574px;
+    padding: 5px 24px 5px 24px;
+    border-radius: 3px;
+    border: 1px;
+    gap: 10px;
+    background: #C9E5FF;
+    color: #0066CC;
+    border: 1px solid #0066CC;
+
+
 }
 
 .red:active {
+    width: 149px;
+    height: 30px;
+    top: 315px;
+    left: 574px;
+    padding: 5px 24px 5px 24px;
+    border-radius: 3px;
+    gap: 10px;
+    background: #B21232;
+
 }
 
 .button:disabled {

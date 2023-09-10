@@ -2,30 +2,47 @@
 }
 
 .input {
-width: 375px;
+    position: relative;
+    width: 375px;
     height: 36px;
+    left: 70px;
 }
 
 .inputWrapper {
     display: flex;
     flex-direction: column-reverse;
+
 }
 
 .superInput {
+    width: 372px;
+    height: 36px;
+    border-radius: 5px;
+    border: 1px solid #D1D1D1
+
 }
 
 .errorInput {
     width: 375px;
     height: 36px;
-    border: 1px solid red;
-
-    /*height: 300px;*/
+    border: 1px solid #CC1439;
 }
 
 .errorInput:focus {
-
+    outline: 1px solid #CC1439;
 }
 
 .error {
-    color:red;
+    position: relative;
+    font-family: Montserrat sans-serif;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 12px;
+    letter-spacing: 0;
+    text-align: left;
+    color: #CC1439;
+    width: 35px;
+    height: 17px;
+    left: 70px;
+
 }
