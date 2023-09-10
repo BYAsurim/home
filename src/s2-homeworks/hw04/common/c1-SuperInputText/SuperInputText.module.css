@@ -26,10 +26,12 @@
     width: 375px;
     height: 36px;
     border: 1px solid #CC1439;
+    border-radius: 3px;
 }
 
 .errorInput:focus {
     outline: 1px solid #CC1439;
+    border-radius: 3px;
 }
 
 .error {
