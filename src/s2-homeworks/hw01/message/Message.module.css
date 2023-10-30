@@ -15,13 +15,13 @@
 }
 
 .text {
-   max-width: 527px;
-   white-space: wrap;
-   border-radius: 15px;
-   background-color: #0066CC;
-   padding: 7px 15px;
-   color: white;
-   margin-right: 12px;
+    max-width: 527px;
+    border-radius: 15px;
+    background-color: #0066CC;
+    padding: 7px 15px;
+    color: white;
+    margin-right: 12px;
+
 }
 
 .text:after {
@@ -37,10 +37,11 @@
 }
 
 .name {
-    
+
 }
 
 .messageText {
+    text-wrap:inherit ;
 
 }
 

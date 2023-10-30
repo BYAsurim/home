@@ -39,7 +39,7 @@ border-right: 20px solid #0066CC;
 }
 
 .friendMessageText {
-
+    text-wrap:inherit ;
 
 }
 

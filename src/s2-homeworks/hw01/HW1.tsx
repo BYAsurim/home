@@ -4,7 +4,7 @@ import MessageSender from './message-sender/MessageSender'
 import s2 from '../../s1-main/App.module.css'
 import FriendMessage from './friend-message/FriendMessage'
 import avatar from './avatar.png'
-import { type } from 'os'
+
 
 /*
 * 1 - описать тип MessageType
@@ -39,7 +39,7 @@ export const message0: MessageType = {
         name: 'Name',  // можно менять
     },
     message: {
-        text: 'some textsome textsome textsome textsome textsome text', // можно менять
+        text: 'some textsome textsome textsome textsome textsome text еще какая нибудь хрень', // можно менять
         time: '22:00', // можно менять
     },
 }
