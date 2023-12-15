@@ -2,8 +2,7 @@
 }
 
 .input {
-    position: relative;
-    width: 375px;
+    max-width: 276px;
     height: 36px;
     left: 70px;
 }
