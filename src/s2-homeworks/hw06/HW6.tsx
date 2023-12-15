@@ -38,18 +38,23 @@ const HW6 = () => {
                         spanProps={{
                             id: 'hw6-editable-span',
                             defaultText: 'enter text...',
+                            className: s.inputs
                         }}
                     />
                 </div>
 
                 <div className={s.buttonsContainer}>
-                    <SuperButton id={'hw6-save'} onClick={save}>
+                    <SuperButton id={'hw6-save'}
+                                 onClick={save}
+                        className={s.button}
+                    >
                         Save to ls
                     </SuperButton>
                     <SuperButton
                         id={'hw6-restore'}
                         onClick={restore}
                         xType={'secondary'}
+                        className={s.button}
                     >
                         Get from ls
                     </SuperButton>
