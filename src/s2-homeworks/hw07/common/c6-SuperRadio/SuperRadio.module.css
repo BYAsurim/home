@@ -9,7 +9,12 @@
 }
 
 .label {
+    display: flex;
+    margin-bottom: 22px;
 }
 
 .options {
+    display: flex;
+    flex-direction: column;
+    margin-left: 127px;
 }
