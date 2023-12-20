@@ -8,9 +8,13 @@
 }
 
 .buttonsContainer {
+    display: flex;
+    justify-content: end;
+
 }
 
 .container {
+width: 676px;
 }
 
 .thead {
@@ -20,4 +24,19 @@
 }
 
 .ageCol {
+}
+.button{
+    width: 101px;
+    height: 30px;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+    padding: 0;
+    margin-left: 12px;
+}
+.button:hover:active{
+    width: 101px;
+    height: 30px;
 }
