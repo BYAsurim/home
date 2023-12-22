@@ -2,6 +2,7 @@
 }
 
 .responseContainer {
+    display: flex;
 }
 
 .imageContainer {
@@ -11,6 +12,8 @@
 }
 
 .textContainer{
+    margin-top: 156px;
+    margin-left: 94px;
 }
 
 .code {
