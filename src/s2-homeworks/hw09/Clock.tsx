@@ -92,6 +92,9 @@ function Clock() {
                     id={'hw9-button-start'}
                     disabled={!!timerId} // пишут студенты // задизэйблить если таймер запущен
                     onClick={start}
+                    className={s.button}
+
+
                 >
                     start
                 </SuperButton>
@@ -99,6 +102,7 @@ function Clock() {
                     id={'hw9-button-stop'}
                     disabled={timerId === undefined} // пишут студенты // задизэйблить если таймер не запущен
                     onClick={stop}
+                    className={s.button}
                 >
                     stop
                 </SuperButton>
