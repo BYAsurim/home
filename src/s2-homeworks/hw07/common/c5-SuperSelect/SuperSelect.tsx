@@ -25,6 +25,8 @@ const SuperSelect: React.FC<SuperSelectPropsType> = ({
 }) => {
     const changeTheme = (id:number)=>{
         if(onChangeOption) onChangeOption(id)
+
+
     }
 
     const mappedOptions: JSX.Element[] = options
@@ -46,7 +48,7 @@ const SuperSelect: React.FC<SuperSelectPropsType> = ({
         if(onChangeOption){
            onChangeOption(+e.currentTarget.value)
         }
-
+        if(onChange) onChange(e)
         // делают студенты
         // если onChangeOption вообще существует, то...
     }
