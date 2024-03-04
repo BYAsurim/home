@@ -67,8 +67,6 @@ const HW15 = () => {
 
         setPage(newPage)
         setCount(newCount)
-
-
         sendQuery({page: newPage, count: newCount})
         setSearchParams(sort)
 
@@ -80,11 +78,11 @@ const HW15 = () => {
 
         setSort(newSort)
         setPage(1) // при сортировке сбрасывать на 1 страницу
-
-        sendQuery({page, count})
-        setSearchParams(newSort)
-
-        //
+        const sortQ: { sort?: string } = newSort !== '' ? {sort: newSort} : {}
+        const { sort, page, ...last } = Object.fromEntries(searchParams)
+        const allQ = { ...sortQ, ...last }
+        sendQuery(allQ)
+        setSearchParams(allQ)
     }
 
     useEffect(() => {
@@ -94,12 +92,6 @@ const HW15 = () => {
         setCount(+params.count || 4)
 
     }, [])
-    useEffect(() => {
-        console.log('page ', page)
-        console.log('count ', count)
-        console.log('totalCount ', totalCount)
-        console.log('searchParams ', searchParams)
-    }, [page, count, totalCount]);
 
     const mappedTechs = techs.map(t => (
         <div key={t.id} className={s.row}>
